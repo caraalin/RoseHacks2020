@@ -20,3 +20,6 @@ body{
     background-color: red;
     transition: background-color 350ms;
 }
+.dropdown-content{
+    background-color: #00ccff;
+}
