@@ -1,0 +1,22 @@
+.box{
+    border: 1px solid green;
+    padding: 5px;
+}
+body{
+    /* background-image: url(''); */
+    /* background-size: ; */
+}
+.nbtn{
+    padding-top: 5px;
+    background-color: #151515;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    box-shadow: 1px 1px 4px #00ccff;
+}
+
+.nbtn:hover{
+    background-color: red;
+    transition: background-color 350ms;
+}
