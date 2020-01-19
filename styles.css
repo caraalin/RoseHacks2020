@@ -11,12 +11,14 @@ body{
 }
 
 .leftMenu{
+    color: #ffffff;
     background-color: #dba39a;
+    position: static;
     grid-column: 0;
     grid-row: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 50px auto 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
 }
 
 .rightMenu{
@@ -39,7 +41,7 @@ body{
 
 .dropdown-trigger.btn{
     color: #ffffff;
-    background-color: #dba39a ;
+    background-color: #dba39a;
 }
 
 .Description{
