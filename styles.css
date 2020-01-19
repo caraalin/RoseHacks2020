@@ -45,6 +45,14 @@ body{
 }
 
 .Description{
-    background-color: #ffffff;
 
+}
+
+.Text{
+    background-color: #ffffff;
+    width: 80%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
 }
