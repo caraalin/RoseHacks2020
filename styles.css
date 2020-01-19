@@ -37,7 +37,8 @@ p{
 }
 
 .rightMenu{
-    padding: 10px 10px;
+    margin-left: 20px;
+    padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1 fr 1fr 1fr 1fr;
@@ -61,6 +62,7 @@ p{
 .Description{
     font-family: "courier";
     color: #a94747;
+    padding: 30px;
 }
 
 .Text{
