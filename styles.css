@@ -64,7 +64,7 @@ img{
 
 .Description{
     font-family: "courier";
-    color: #dba39a;
+    color: #a94747;
 }
 
 .Text{
@@ -74,6 +74,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30%;
+    padding: 10px 10px;
 }
 
 .homePage{
@@ -109,7 +110,7 @@ img{
 }
 
 .QA{
-    color: #dba39a;
+    color: #a94747;
     margin-left: 10%;
     margin-right: 10%;
     font-family: "courier";
