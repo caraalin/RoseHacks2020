@@ -8,6 +8,9 @@ a{
     color: #ffffff;
 }
 
+p{
+    margin-left: 30px;
+}
 
 .Main{
     display: grid;
@@ -91,7 +94,7 @@ a{
 
 .FAQpage{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .title1{
