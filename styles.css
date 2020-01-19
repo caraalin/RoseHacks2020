@@ -85,6 +85,8 @@ a{
 .Welcome{
     color: #dba39a;
     text-align: center;
+    width: 70%;
+    margin: auto;
 }
 
 .FAQpage{
@@ -121,4 +123,11 @@ a{
 .logo{
     text-align: center;
     margin: auto;
+}
+
+.info{
+    color: #a94747;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
 }
