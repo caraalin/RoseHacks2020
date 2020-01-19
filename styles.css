@@ -6,17 +6,24 @@ body{
 
 .Main{
     display: grid;
-    grid-template-columns: 1fr 7fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: 1fr;
 }
 
 .leftMenu{
     background-color: #dba39a;
-    /* grid-column: 1fr; */
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr; */
+    grid-column: 0;
+    grid-row: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px auto 50px 50px;
+}
+
+.rightMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
 }
 
 .box{
@@ -35,3 +42,7 @@ body{
     background-color: #dba39a ;
 }
 
+.Description{
+    background-color: #ffffff;
+
+}
