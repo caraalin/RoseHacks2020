@@ -3,6 +3,10 @@ body{
     background-color: #fff0db;
 }
 
+a{
+    color: #ffffff;
+}
+
 
 .Main{
     display: grid;
@@ -11,38 +15,47 @@ body{
 }
 
 .leftMenu{
+    font-family: "courier";
+    font-size:calc(16px * 1vw);
+    text-align: center;
     color: #ffffff;
     background-color: #dba39a;
-    position: static;
+    box-sizing: border-box;
+    height: 100vh;
+    top:0;
+    position: sticky;
+    overflow-x: hidden;
     grid-column: 0;
     grid-row: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-rows: 50px 300px 50px 50px;
 }
 
 .rightMenu{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-
 }
 
-.box{
-    color: #000000;
+#link{
 }
-
 
 .dropdown-content{
-    color: #dba39a;
+    color: #000000;
     background-color: #ffffff;
 
+}
+
+#dropdown1{
+    color: #000000;
 }
 
 .dropdown-trigger.btn{
     color: #ffffff;
     background-color: #dba39a;
 }
+
 
 .Description{
 
