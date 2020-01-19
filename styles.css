@@ -1,12 +1,17 @@
 body{
     color: #ffffff;
     background-color: #fff0db;
+    font-family: "courier";
 }
 
 a{
     color: #ffffff;
 }
 
+img{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 .Main{
     display: grid;
@@ -16,7 +21,7 @@ a{
 
 .leftMenu{
     font-family: "courier";
-    font-size:calc(16px * 1vw);
+    font-size: 16px;
     text-align: center;
     color: #ffffff;
     background-color: #dba39a;
@@ -29,7 +34,7 @@ a{
     grid-row: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 300px 50px 50px;
+    grid-template-rows: 50px 250px 50px 50px;
 }
 
 .rightMenu{
@@ -58,7 +63,8 @@ a{
 
 
 .Description{
-
+    font-family: "courier";
+    color: #dba39a;
 }
 
 .Text{
@@ -72,7 +78,9 @@ a{
 
 .homePage{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 3fr;
+    font-family: "courier";
+    height: 100vh;
 }
 
 .homeTitle{
@@ -102,4 +110,7 @@ a{
 
 .QA{
     color: #dba39a;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "courier";
 }
