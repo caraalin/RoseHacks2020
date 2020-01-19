@@ -34,7 +34,7 @@ img{
     grid-row: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 50px 300px 50px 50px;
+    grid-template-rows: 2fr 1fr 3fr 1fr 1fr;
 }
 
 .rightMenu{
