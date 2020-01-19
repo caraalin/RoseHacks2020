@@ -12,10 +12,10 @@ body{
 
 .leftMenu{
     background-color: #dba39a;
-    grid-column: 1fr;
-    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    /* grid-column: 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr; */
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: 50px 50px auto 50px 50px;
 }
 
@@ -30,8 +30,8 @@ body{
 
 }
 
-.dropdown-trigger btn{
+.dropdown-trigger.btn{
     color: #ffffff;
-    background-color: #dba39a;
+    background-color: #dba39a ;
 }
 
