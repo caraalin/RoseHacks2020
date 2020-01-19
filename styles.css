@@ -9,6 +9,7 @@ body{
 }
 
 .leftMenu{
+    background-color: #dba39a;
     grid-column: 0;
     grid-row:0;
     display: grid;
