@@ -1,5 +1,5 @@
 body{
-    color: #white;
+    color: #ffffff;
     background-color: #fff0db;
 }
 
@@ -20,26 +20,18 @@ body{
 }
 
 .box{
-    color: #black;
+    color: #000000;
 }
 
 
 .dropdown-content{
     color: #dba39a;
-    background-color: #white;
+    background-color: #ffffff;
 
 }
 
 .dropdown-trigger btn{
-    color: #white;
+    color: #ffffff;
     background-color: #dba39a;
-}
-
-
-
-
-.nbtn:hover{
-    background-color: red;
-    transition: background-color 350ms;
 }
 
