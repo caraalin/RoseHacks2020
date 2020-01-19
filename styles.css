@@ -69,3 +69,37 @@ a{
     margin-right: auto;
     margin-top: 30%;
 }
+
+.homePage{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.homeTitle{
+    text-align: center;
+
+}
+
+.Welcome{
+    color: #dba39a;
+    text-align: center;
+}
+
+.FAQpage{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.faq{
+    font-family: "Futura";
+    font-style: italic;
+    font-size: 75px;
+    font-weight: bold;
+    color: #a94747;
+    text-align: center;
+
+}
+
+.QA{
+    color: #dba39a;
+}
