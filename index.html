@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-    <div class="box">ln1
-        <div>line1.5</div>
-    </div>
-    <div class="box">line2</div>
-    <a href="./page2.html">
-        <div class="nbtn">
-            Click me
-        </div>
+    <title>SKRT</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    </a>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="Main">
+        <div class="leftMenu">
+            <img class="logo" src="skrt logo.png" width=40%>
+            <div><a href="./index.html">H O M E</a></div>
+            <!-- Dropdown Trigger -->
+            <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>C A T E G O R I E S</a>
+
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="./page2.html">FUEL EFFICIENT</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="./page3.html">ENVIRONMENTALLY FRIENDLY</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="./page4.html">RELIABILITY</a></li>
+            </ul>
+            <!--FAQ-->
+            <div><a href="./page5.html">F A Q</a></div>
+            <!--About Us-->
+            <div><a href="./page6.html">A B O U T &nbsp U S</a></div>
+        </div>
+    
+        <div class="homePage">
+            <div class="homeTitle">
+                <img src="skrt.gif" height=42% width=42%>
+            </div>
+            <div class="Welcome">Welcome to Skrt! Skrt.com is an emerging digital platform aimed to help the modern day shopper begin their search for their ideal car. By conveniently organizing cars into popular search categories in an easy-to-nagivate manner, potential buyers can readily access general information about pre-selected cars that may spark their interest. Skrt.com seeks to not only act as a ‘beginner’s car guide’, but to further generate appeal for more environmentally-conscious vehicle purchases. 
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

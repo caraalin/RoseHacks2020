@@ -1,22 +1,138 @@
-.box{
-    border: 1px solid green;
-    padding: 5px;
-}
 body{
-    /* background-image: url(''); */
-    /* background-size: ; */
-}
-.nbtn{
-    padding-top: 5px;
-    background-color: #151515;
     color: #ffffff;
-    height: 30px;
-    width: 120px;
-    text-align: center;
-    box-shadow: 1px 1px 4px #00ccff;
+    background-color: #fff0db;
+    font-family: "courier";
 }
 
-.nbtn:hover{
-    background-color: red;
-    transition: background-color 350ms;
+a{
+    color: #ffffff;
+}
+
+p{
+    margin-left: 30px;
+}
+
+.Main{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 1fr;
+}
+
+.leftMenu{
+    font-family: "courier";
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #dba39a;
+    box-sizing: border-box;
+    height: 100vh;
+    top:0;
+    position: sticky;
+    overflow-x: hidden;
+    grid-column: 0;
+    grid-row: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 3fr 1fr 1fr;
+}
+
+.rightMenu{
+    margin-left: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1 fr 1fr 1fr 1fr;
+}
+
+.dropdown-content{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#dropdown1{
+    color: #000000;
+}
+
+.dropdown-trigger.btn{
+    color: #ffffff;
+    background-color: #dba39a;
+}
+
+
+.Description{
+    font-family: "courier";
+    color: #a94747;
+    padding: 30px;
+}
+
+.Text{
+    background-color: #ffffff;
+    width: 90%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    padding: 10px 10px;
+}
+
+.homePage{
+    padding: 10px 10px;
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    font-family: "courier";
+    height: 100vh;
+}
+
+.homeTitle{
+    text-align: center;
+}
+
+.Welcome{
+    color: #dba39a;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.FAQpage{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.title1{
+    font-family: "Futura";
+    font-style: italic;
+    font-size: 75px;
+    font-weight: bold;
+    color: #a94747;
+    text-align: center;
+}
+
+.title2{
+    color: #dba39a;
+    grid-column: 1/3;
+    font-family: "Futura";
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.QA{
+    color: #a94747;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "courier";
+}
+
+.logo{
+    text-align: center;
+    margin: auto;
+}
+
+.info{
+    color: #a94747;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
 }
